@@ -16,8 +16,8 @@ import win32console, subprocess
 import telegram
 
 PERSONAL_USE = True
-telegramChatID = 5022646669
-telegramToken = '5155792454:AAGZZKifa-tXQOF42x9h4EBRLjS3RN158tg'
+telegramChatID = 0
+telegramToken = 'None'
 
 def sec2hms(sec): # time formating
     return strftime('%H:%M:%S', gmtime(sec))
